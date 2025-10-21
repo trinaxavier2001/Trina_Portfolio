@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/trina-portfolio/', // GitHub repository name
+  base: '/Trina_Portfolio/', // GitHub repository name
   resolve: {
     extensions: ['.js', '.jsx']
   },

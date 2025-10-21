@@ -9,7 +9,7 @@ import ArticleTemplate from './templates/article-template';
 
 export default function App() {
   return (
-    <Router>
+    <Router basename="/Trina_Portfolio">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/projects" element={<Projects />} />

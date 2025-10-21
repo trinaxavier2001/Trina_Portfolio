@@ -75,7 +75,7 @@ export default function Home() {
           </div>
         </div>
         <div className="cta">
-          <a className="btn btn--primary" href="/Trina_Xavier_Resume.pdf" target="_blank" rel="noreferrer">
+          <a className="btn btn--primary" href={`${import.meta.env.BASE_URL}Trina_Xavier_Resume.pdf`} target="_blank" rel="noreferrer">
             Download Résumé
           </a>
           <a className="btn" href="/projects">

@@ -28,10 +28,7 @@ export default function Home() {
           Exploring AI's Frontiers: From Ocean Science to Enterprise Solutions
         </h1>
         <p className="lead">
-          I build ML systems for ocean science, medical imaging, and enterprise data—domains where models
-          directly inform conservation, diagnosis, and business decisions. From India to Massachusetts marine
-          labs, I've learned the best models aren't the most complex—they're the ones people can understand,
-          reproduce, and trust when stakes are high.
+          From electronics engineering in Hyderabad to marine science labs in Massachusetts, my path to data science has been anything but linear. I specialize in building ML systems where accuracy isn't just a metric—it's mission-critical. Whether detecting scallops for sustainable fisheries, gap-filling satellite ocean data, or optimizing enterprise workflows, I've learned that the most impactful models balance technical rigor with interpretability, delivering insights that scientists and stakeholders can confidently act upon.
         </p>
         <div className="hero__story">
           <div className="hero__story-image">

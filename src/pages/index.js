@@ -1,4 +1,5 @@
 import * as React from "react";
+import { Link } from "react-router-dom";
 import Layout from "../components/Layout";
 
 export default function Home() {
@@ -7,7 +8,7 @@ export default function Home() {
       <section className="hero">
         <div className="hero__profile">
           <img
-            src="/images/profile.jpg"
+            src={`${import.meta.env.BASE_URL}images/profile.jpg`}
             alt="Trina Xavier"
             className="hero__profile-image"
             onError={(e) => {
@@ -35,7 +36,7 @@ export default function Home() {
         <div className="hero__story">
           <div className="hero__story-image">
             <img
-              src="/images/feature-story.jpg"
+              src={`${import.meta.env.BASE_URL}images/feature-story.jpg`}
               alt="Featured Story - Marine Science"
               onError={(e) => {
                 e.target.style.display = 'none';
@@ -78,12 +79,12 @@ export default function Home() {
           <a className="btn btn--primary" href={`${import.meta.env.BASE_URL}Trina_Xavier_Resume.pdf`} target="_blank" rel="noreferrer">
             Download Résumé
           </a>
-          <a className="btn" href="/projects">
+          <Link className="btn" to="/projects">
             View Projects
-          </a>
-          <a className="btn" href="/articles">
+          </Link>
+          <Link className="btn" to="/articles">
             Read Articles
-          </a>
+          </Link>
         </div>
       </section>
 
